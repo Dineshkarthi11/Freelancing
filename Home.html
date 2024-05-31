@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <img src="d.png" alt="logo" class="logo">
+            <h1>Welcome Back!</h1>
+          </div>
+          <div class="header-right">
+            <img src="d1.png" alt="logo" class="avatar">
+        </div>
+        </header>
+        <div class="content">
+            <div class="timetable">
+                <h2><span style="color:blue">Time Table </span></h2>
+                <table>
+                    <tr>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                    </tr>
+                    <tr>
+                        <td>Subj 2</td>
+                        <td>Subj 2</td>
+                        <td>Subj 2</td>
+                        <td>Subj 2</td>
+                    </tr>
+                    <tr>
+                        <td>Subj 1</td>
+                        <td>Subj 1</td>
+                        <td>Subj 1</td>
+                        <td>Subj 1</td>
+                    </tr>
+                    <tr>
+                        <td>Subj 3</td>
+                        <td>Subj 3</td>
+                        <td>Subj 3</td>
+                        <td>Subj 3</td>
+                    </tr>
+                    <tr>
+                        <td>Subj 4</td>
+                        <td>Subj 4</td>
+                        <td>Subj 4</td>
+                        <td>Subj 4</td>
+                    </tr>
+                    <tr>
+                        <td>Subj 5</td>
+                        <td>Subj 5</td>
+                        <td>Subj 5</td>
+                        <td>Subj 5</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="attendance">
+                <h2><span style="color:blue">Attendance </span></h2>
+                <canvas id="attendanceChart"></canvas>
+            </div>
+            <div class="notifications">
+                <h2><span style="color:blue">Notifications</span></h2>
+                <ul>
+                    <li>Assignment 1 submission</li>
+                    <li>Holiday on 25th December</li>
+                    <li>Complete Course Assessment</li>
+                    <li>Assignment 2 submission</li>
+                </ul>
+            </div>
+            <div class="participation">
+                <h2><span style="color:blue">Overall Participation</span></h2>
+                <canvas id="participationChart"></canvas>
+            </div>
+            <div class="activities">
+                <h2><span style="color:blue">Extra Co-curricular Activities</span></h2>
+                <canvas id="activitiesChart"></canvas>
+            </div>
+            <div class="courses">
+                <h2><span style="color:blue">Courses</span></h2>
+                <canvas id="coursesChart"></canvas>
+            </div>
+            <div class="achievements">
+                <h2>Achievements</h2>
+                <h2> <span style="color:blue"> Congratulations! </span></h2>
+                <p>Team xyz won 1st prize in Basketball competition</p>
+            </div>
+            <div class="achievements">
+                <h2>Achievements</h2>
+                <h2> <span style="color:blue"> Congratulations! </span></h2>
+                <p>pqr has backed 1st prize in quiz competition</p>
+            </div>
+            <div class="achievements">
+                <h2>Achievements</h2>
+                <h2> <span style="color:blue"> Congratulations! </span></h2>
+                <p>You have completed the courses fastest this week</p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
